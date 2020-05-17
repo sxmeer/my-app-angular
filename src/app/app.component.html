@@ -1,1 +1,5 @@
-<h1>Hi this is {{ title }}</h1>
+<br>
+<br>
+<app-app-cockpit></app-app-cockpit>
+<hr>
+<app-app-listing *ngFor="let record of myArray" [id]="record.id" [name]="record.name"></app-app-listing>
